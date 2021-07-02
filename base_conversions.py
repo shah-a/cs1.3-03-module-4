@@ -150,5 +150,8 @@ assert decimal_to_hex(4096) == '1000'
 assert decimal_to_hex(652) == '28C'
 assert decimal_to_hex(255) == 'FF'
 assert decimal_to_hex(2_147_483_647) == '7FFFFFFF'
+assert decimal_to_hex(5) == '5'
+assert decimal_to_hex(15) == 'F'
+assert decimal_to_hex(0) == '0'
 
 print("`decimal_to_hex` tests passed")
